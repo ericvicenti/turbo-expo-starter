@@ -28,17 +28,18 @@ import React from "react";
 
 ### Create RN App
 
-`cd apps`
-
-`npx react-native init ReactNativeApp`
+```
+cd apps
+npx react-native init ReactNativeApp
+```
 
 ### Rename App
 
+```
 mv ReactNativeApp react-native-app
+```
 
-Update the `apps/react-native-app/package.json`
-
-By convention we match the package name to the folder name.
+By convention we match the package name to the folder name. Update the `apps/react-native-app/package.json`:
 
 ```
 "name": "react-native-app",
@@ -46,7 +47,7 @@ By convention we match the package name to the folder name.
 
 ### Install UI Lib
 
-dependencies
+Add to the app `package.json` dependencies
 
 ```
 "ui": "*"
