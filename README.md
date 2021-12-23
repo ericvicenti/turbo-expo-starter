@@ -80,9 +80,15 @@ not specific to this repo, but this trick fixes cmd-r refresh in the simulator: 
 
 Basically change the keyboard shortcut for screen recording
 
-### add RNW as dependency of
+### Add React-Native-Web as dep of Next Apps
 
-### Copy RNW config to next apps
+Add to dependencies of `apps/web/package.json` and `apps/docs/package.json`:
+
+```
+  "react-native-web": "^0.17.5",
+```
+
+### Copy RNW config to Next Apps
 
 From here: https://github.com/vercel/next.js/blob/master/examples/with-react-native-web/next.config.js
 
