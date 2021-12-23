@@ -2,6 +2,14 @@
 
 Welcome to a standard RN app within a Turbo monorepo!
 
+## To Run
+
+Check out the repo and run `yarn` in the repo root. Then run:
+
+- `yarn workspace react-native-app ios`, for iOS
+- `yarn workspace react-native-app android`, for Android
+- `yarn workspace react-native-app start`, to start the Metro server (you have already installed on iOS or Android)
+
 ### Note 1:
 
 Live Reload is not working. After saving files, the live-reload indicator appears but the new code does not run.
