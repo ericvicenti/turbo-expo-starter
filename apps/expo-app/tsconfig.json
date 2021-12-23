@@ -1,0 +1,6 @@
+{
+  "extends": "tsconfig/expo-app.json",
+  "compilerOptions": {
+    "strict": true
+  }
+}
