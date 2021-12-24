@@ -73,7 +73,7 @@ Remove the following line from `apps/nextron-app/package.json`, and move it to t
     "postinstall": "electron-builder install-app-deps"
 ```
 
-> Why? There is an error when this postinstall step is used within the package. I'm not exactly sure why, but this change allow electron-builder to do its job!
+> Why? There is an error when this postinstall step is used within the package. I'm not exactly sure why, but this change allow electron-builder to do its job! Alternatively, [this might work](https://github.com/electron-userland/electron-builder/issues/3984#issuecomment-784524894).
 
 ### To Do:
 
