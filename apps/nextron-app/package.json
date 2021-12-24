@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "nextron-app",
+  "version": "1.0.0",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.0.1",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "electron": "^15.0.0",
+    "electron-builder": "^22.11.7",
+    "next": "^11.1.2",
+    "next-transpile-modules": "^9.0.0",
+    "nextron": "^7.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
