@@ -1,10 +1,11 @@
 import { Button } from "ui";
+import { View, Text } from "react-native";
 
 export default function Web() {
   return (
-    <div>
-      <h1>Web</h1>
+    <View style={{ backgroundColor: "lightblue", flex: 1 }}>
+      <Text>Web</Text>
       <Button onPress={() => {}} />
-    </div>
+    </View>
   );
 }
